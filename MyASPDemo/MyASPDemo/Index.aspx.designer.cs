@@ -10,34 +10,7 @@
 namespace MyASPDemo {
 
 
-    public partial class WebForm1 {
-
-        /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// litOut control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litOut;
-
-        /// <summary>
-        /// lblOutput control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOutput;
+    public partial class Index {
 
         /// <summary>
         /// btnClick control.
@@ -49,30 +22,39 @@ namespace MyASPDemo {
         protected global::System.Web.UI.WebControls.Button btnClick;
 
         /// <summary>
-        /// txtTwo control.
+        /// lblOut control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtTwo;
+        protected global::System.Web.UI.WebControls.Label lblOut;
 
         /// <summary>
-        /// txtThree control.
+        /// txtIn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtThree;
+        protected global::System.Web.UI.WebControls.TextBox txtIn;
 
         /// <summary>
-        /// btnTwo control.
+        /// btnChangeName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnTwo;
+        protected global::System.Web.UI.WebControls.Button btnChangeName;
+
+        /// <summary>
+        /// lblIn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblIn;
     }
 }

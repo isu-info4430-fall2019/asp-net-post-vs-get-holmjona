@@ -18,6 +18,9 @@
         Here is some text and more stuff.</p>
         <asp:Label ID="lblOutput" runat="server" Text="My Text" />
         <asp:Button ID="btnClick" runat="server" Text="Click me" OnClick="btnClick_Click" />
+        <input id="txtTwo" runat="server" />
+        <asp:TextBox ID="txtThree" runat="server" Text="Hello" />
+        <button id="btnTwo" runat="server" >Don't click me</button>
     </form>
     </body>
 </html>

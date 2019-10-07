@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="MyASPDemo.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Default.aspx">Default.aspx</a></li>
+            <li><a href="Index.aspx">Index.aspx</a></li>
+        </ul>
+    </nav>
+    <h1>4430 Awesome class</h1>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="mainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="cphFooter" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
