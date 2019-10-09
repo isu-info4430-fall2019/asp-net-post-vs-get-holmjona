@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="Erik.aspx" />
     <Content Include="Index.aspx" />
+    <Content Include="Tia.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -79,6 +81,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Erik.aspx.cs">
+      <DependentUpon>Erik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Erik.aspx.designer.cs">
+      <DependentUpon>Erik.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -95,6 +104,20 @@
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tia.aspx.cs">
+      <DependentUpon>Tia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tia.aspx.designer.cs">
+      <DependentUpon>Tia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Two.Master.cs">
+      <DependentUpon>Two.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Two.Master.designer.cs">
+      <DependentUpon>Two.Master</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -107,6 +130,7 @@
   <ItemGroup>
     <Content Include="Main.Master" />
     <None Include="packages.config" />
+    <Content Include="Two.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

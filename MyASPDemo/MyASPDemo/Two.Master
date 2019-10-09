@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Two.master.cs" Inherits="MyASPDemo.Two" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style>
+        p{
+            color: #F00;
+        }
+        h2{
+            color: #F0F;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <a href="Erik.aspx">Erik.aspx</a><a href="Tia.aspx">Tia.aspx</a>
+
+    <form id="form1" runat="server">
+        <div>
+            <p>This is my text</p>
+            <asp:ContentPlaceHolder ID="cphContent" runat="server" />
+        </div>
+    </form>
+</body>
+</html>

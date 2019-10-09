@@ -20,6 +20,7 @@
         <div>
             <asp:ContentPlaceHolder ID="mainContent" runat="server">
             </asp:ContentPlaceHolder>
+
         </div>
         <div>
             <asp:ContentPlaceHolder ID="cphFooter" runat="server">
