@@ -5,6 +5,8 @@
 <html>
 <head runat="server">
     <title></title>
+    <link href="styles/site.css" rel="stylesheet" />
+
     <style>
         p{
             color: #F00;
@@ -20,6 +22,7 @@
     <a href="Erik.aspx">Erik.aspx</a><a href="Tia.aspx">Tia.aspx</a>
 
     <form id="form1" runat="server">
+        <asp:TextBox ID="txtMagic" runat="server">Something</asp:TextBox>
         <div>
             <p>This is my text</p>
             <asp:ContentPlaceHolder ID="cphContent" runat="server" />

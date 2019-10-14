@@ -70,6 +70,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Erik.aspx" />
     <Content Include="Index.aspx" />
+    <Content Include="styles\site.css" />
     <Content Include="Tia.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -131,6 +132,8 @@
     <Content Include="Main.Master" />
     <None Include="packages.config" />
     <Content Include="Two.Master" />
+    <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
