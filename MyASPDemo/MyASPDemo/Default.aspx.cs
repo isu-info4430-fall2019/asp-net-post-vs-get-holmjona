@@ -15,6 +15,8 @@ namespace MyASPDemo {
 
             string value = Request.QueryString["key"];
 
+            
+
         }
     }
 }
